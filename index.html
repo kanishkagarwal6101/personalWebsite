@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <nav class="song">
+      <audio src="resources/y2mate.com - ACDC  Back In Black Official Video.mp3" id="myfavsong"></audio>
+      <button class="song-btn" style="color: white" onclick="playMyAudio()">Play my favorite song</div>
+        <button class="song-pause-btn" onClick="pauseMyAudio()" style="color: white">Pause Audio</button>
+    </nav>
     <section class="intro">
       <div class="about-me">
         <div class="text">
@@ -107,6 +112,12 @@
       }
 
       window.addEventListener("scroll", reveal);
+      function playMyAudio(){
+        document.getElementById('myfavsong').play();
+      }
+      function pauseMyAudio(){
+        document.getElementById('myfavsong').pause();
+      }
     </script>
   </body>
 </html>

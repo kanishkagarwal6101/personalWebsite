@@ -51,6 +51,24 @@ img {
   margin-top: 30px;
   opacity: 50%;
 }
+.song-btn,
+.song-pause-btn {
+  background-color: black;
+  color: white;
+  border: 0px solid black;
+  cursor: pointer;
+  font-size: 18px;
+}
+.song {
+  text-align: center;
+}
+.song-btn {
+  margin-top: 20px;
+  margin-right: 50px;
+}
+.song-pause-btn {
+  margin-right: 200px;
+}
 .more {
   display: flex;
   justify-content: center;
@@ -169,5 +187,17 @@ footer p {
   }
   .git-logo {
     margin-left: 20px;
+  }
+  .song {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .song-btn {
+    margin: 0px;
+    margin-top: 10px;
+  }
+  .song-pause-btn {
+    margin: 0px;
   }
 }
