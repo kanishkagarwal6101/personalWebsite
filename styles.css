@@ -1,0 +1,133 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  background: black;
+  scroll-behavior: smooth;
+}
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h2,
+h1,
+p,
+h4 {
+  letter-spacing: 1.2;
+  color: white;
+}
+.image {
+  max-height: 17%;
+  max-width: 17%;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  margin-right: 100px;
+}
+.about-me .text h2 {
+  font-size: 20px;
+}
+.about-me .text h1 {
+  font-size: 40px;
+}
+.about-me .text h1:hover {
+  font-size: 50px;
+}
+.about-me .text p {
+  margin-top: 120px;
+  font-size: 18px;
+}
+.about-me .text h4 {
+  margin-top: 30px;
+  opacity: 50%;
+}
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.more-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.more .more-about .text h2 {
+  font-size: 30px;
+}
+.more .more-about .text p {
+  margin-top: 40px;
+  opacity: 40%;
+  font-size: 18px;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.skills-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills .skills-div .text h2 {
+  font-size: 40px;
+}
+.connect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.connect-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.connect .connect-div .text a img {
+  border-radius: 50px;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+}
+.git-logo {
+  margin-left: 30%;
+  margin-right: 30px;
+}
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+.about-me > div:nth-child(1) > a:nth-child(4) {
+  text-decoration: underline;
+  color: white;
+}
+.more-about > div:nth-child(1) > a:nth-child(3) > img:nth-child(1) {
+  border-radius: 50px;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+}
+.skills-div > div:nth-child(1) > a:nth-child(2) > img:nth-child(1) {
+  border-radius: 50px;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+}
